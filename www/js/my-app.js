@@ -13,6 +13,8 @@ var mainView = myApp.addView('.view-main', {
 
 // Handle Cordova Device Ready Event
 $$(document).on('deviceready', function() {
+    navigator.splashscreen.show();
+
     console.log("Device is ready!");
 });
 
