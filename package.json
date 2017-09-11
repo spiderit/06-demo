@@ -4,5 +4,13 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "displayName": "helloworld"
+    "displayName": "helloworld",
+    "dependencies": {
+        "cordova-plugin-splashscreen": "^4.0.3"
+    },
+    "cordova": {
+        "plugins": {
+            "cordova-plugin-splashscreen": {}
+        }
+    }
 }
